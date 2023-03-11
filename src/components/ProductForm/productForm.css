@@ -1,0 +1,6 @@
+.form-control {
+  border-radius: 0 !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}

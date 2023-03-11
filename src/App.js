@@ -1,12 +1,15 @@
 import "./App.css";
 import Container from "react-bootstrap/Container";
-import AddProductForm from "./components/ProductForm/productForm";
+import Header from "./components/Header/Header";
+import AddProduct from "./Pages/AddProduct/AddProduct";
 
 function App() {
   return (
-    <Container>
-      <AddProductForm />
-    </Container>
+    <>
+      <Container>
+        <AddProduct />
+      </Container>
+    </>
   );
 }
 
